@@ -3,50 +3,148 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Teko Labs</title>
-<meta name="description" content="Teko Labs makes small, friendly games for phones. Play your way.">
+<title>Teko Labs: apps and games for phones</title>
+<meta name="description" content="Teko Labs is a small independent studio making apps and games for phones: Inky Quest, a bounce puzzle game, and JuntoCash, budgeting and bill splitting in one app.">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://tekolabs.dev/">
 <link rel="icon" href="mark.svg" type="image/svg+xml">
+<link rel="icon" href="icon-512.png" type="image/png" sizes="512x512">
+<link rel="apple-touch-icon" href="icon-512.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Teko Labs">
+<meta property="og:title" content="Teko Labs: apps and games for phones">
+<meta property="og:description" content="A small independent studio making apps and games for phones: Inky Quest, a bounce puzzle game, and JuntoCash, budgeting and bill splitting in one app.">
+<meta property="og:url" content="https://tekolabs.dev/">
+<meta property="og:image" content="https://tekolabs.dev/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="The Teko Labs mark and name">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Teko Labs: apps and games for phones">
+<meta name="twitter:description" content="A small independent studio making apps and games for phones.">
+<meta name="twitter:image" content="https://tekolabs.dev/og.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300;800&display=swap">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://tekolabs.dev/#organization",
+      "name": "Teko Labs",
+      "url": "https://tekolabs.dev/",
+      "logo": "https://tekolabs.dev/icon-512.png",
+      "email": "hello@tekolabs.dev",
+      "description": "A small independent studio making apps and games for phones.",
+      "sameAs": ["https://github.com/teko-labs"]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://tekolabs.dev/#website",
+      "url": "https://tekolabs.dev/",
+      "name": "Teko Labs",
+      "publisher": { "@id": "https://tekolabs.dev/#organization" }
+    },
+    {
+      "@type": "VideoGame",
+      "@id": "https://tekolabs.dev/inky-quest/#game",
+      "name": "Inky Quest",
+      "alternateName": "Inky Quest: Bounce Puzzle",
+      "url": "https://tekolabs.dev/inky-quest/",
+      "image": "https://tekolabs.dev/inky-quest/icon-512.png",
+      "description": "A bounce puzzle game for phones. Inky the octopus bounces by herself; you steer her left and right, match her colour to break the tiles, then take the pearls. Free, with no adverts and nothing to buy.",
+      "genre": "Puzzle",
+      "applicationCategory": "GameApplication",
+      "operatingSystem": "Android, iOS",
+      "gamePlatform": ["Android", "iOS"],
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+      "author": { "@id": "https://tekolabs.dev/#organization" },
+      "publisher": { "@id": "https://tekolabs.dev/#organization" }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://tekolabs.dev/#juntocash",
+      "name": "JuntoCash",
+      "url": "https://tekolabs.dev/#juntocash",
+      "description": "Budgeting and bill splitting in one app: your share of a group expense counts in your own budget. It works without an account, with everything kept on your phone. In development for Android and iPhone.",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "Android, iOS",
+      "author": { "@id": "https://tekolabs.dev/#organization" },
+      "publisher": { "@id": "https://tekolabs.dev/#organization" }
+    }
+  ]
+}
+</script>
 <style>
-  :root { --ground: #121428; --accent: #f04a2a; --light: #f4efe6; --soft: rgba(244, 239, 230, 0.62); }
+  :root { --ground: #121428; --accent: #f04a2a; --light: #f4efe6; --soft: rgba(244, 239, 230, 0.66); --card: rgba(244, 239, 230, 0.06); --card-hover: rgba(244, 239, 230, 0.11); }
+  * { box-sizing: border-box; }
   html, body { margin: 0; background: var(--ground); color: var(--light); font-family: Unbounded, system-ui, sans-serif; }
-  main { min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 48px 16px; box-sizing: border-box; text-align: center; }
-  .mark { width: 132px; height: 132px; display: block; }
-  h1 { margin: 28px 0 0; font-size: clamp(40px, 8vw, 72px); line-height: 1; letter-spacing: -0.01em; }
+  main { max-width: 760px; margin: 0 auto; padding: 72px 20px 40px; }
+  header { display: flex; align-items: center; gap: 22px; }
+  .mark { width: 84px; height: 84px; flex: none; }
+  h1 { margin: 0; font-size: clamp(34px, 7vw, 56px); line-height: 1; letter-spacing: -0.01em; }
   h1 b { font-weight: 800; }
   h1 span { font-weight: 300; margin-left: 0.22em; }
-  .tagline { margin: 18px 0 0; font-weight: 300; font-size: 14px; letter-spacing: 0.32em; color: var(--soft); text-transform: uppercase; }
-  .games { margin: 64px 0 0; display: flex; flex-direction: column; gap: 14px; width: min(100%, 420px); }
-  .game { display: flex; align-items: center; gap: 18px; padding: 16px 20px; border-radius: 18px; background: rgba(244, 239, 230, 0.06); color: var(--light); text-decoration: none; text-align: left; transition: background 0.15s; }
-  .game:hover { background: rgba(244, 239, 230, 0.12); }
-  .game img { width: 56px; height: 56px; border-radius: 14px; flex: none; }
-  .game strong { display: block; font-weight: 800; font-size: 17px; }
-  .game small { display: block; margin-top: 4px; font-weight: 300; font-size: 12px; color: var(--soft); line-height: 1.5; }
-  footer { margin-top: 72px; font-weight: 300; font-size: 12px; color: var(--soft); line-height: 2; }
-  footer a { color: var(--soft); }
+  .lead { margin: 34px 0 0; font-weight: 300; font-size: clamp(17px, 2.6vw, 21px); line-height: 1.6; max-width: 620px; }
+  h2 { margin: 56px 0 18px; font-weight: 300; font-size: 13px; letter-spacing: 0.3em; text-transform: uppercase; color: var(--soft); }
+  .products { display: grid; gap: 14px; }
+  .product { display: flex; align-items: flex-start; gap: 20px; padding: 22px 24px; border-radius: 20px; background: var(--card); color: var(--light); text-decoration: none; transition: background 0.15s; }
+  a.product:hover { background: var(--card-hover); }
+  .product img, .product .tile { width: 64px; height: 64px; border-radius: 16px; flex: none; }
+  .product .tile { display: grid; place-items: center; background: #1f6f5a; color: var(--light); font-weight: 800; font-size: 26px; }
+  .product strong { display: block; font-weight: 800; font-size: 19px; }
+  .product .tag { display: inline-block; margin-left: 10px; vertical-align: middle; padding: 3px 9px; border-radius: 999px; font-weight: 300; font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; background: rgba(244, 239, 230, 0.12); color: var(--soft); }
+  .product p { margin: 8px 0 0; font-weight: 300; font-size: 14px; line-height: 1.6; color: var(--soft); }
+  .product p a { color: var(--light); }
+  .about p { margin: 0 0 14px; font-weight: 300; font-size: 15px; line-height: 1.7; color: var(--soft); max-width: 620px; }
+  .about a, footer a { color: var(--light); }
+  footer { margin-top: 64px; padding-top: 22px; border-top: 1px solid rgba(244, 239, 230, 0.12); font-weight: 300; font-size: 12px; line-height: 2; color: var(--soft); }
+  @media (max-width: 480px) { .product { flex-direction: column; } .product img, .product .tile { width: 56px; height: 56px; } }
 </style>
 </head>
 <body>
 <main>
-  <svg class="mark" viewBox="0 0 120 120" role="img" aria-label="The Teko Labs mark">
-    <polygon points="60,8 94,42 26,42" fill="#f04a2a" stroke="#f04a2a" stroke-width="4" stroke-linejoin="round"/>
-    <polygon points="10,58 52,58 52,104 8,60" fill="#f4efe6" stroke="#f4efe6" stroke-width="4" stroke-linejoin="round"/>
-    <polygon points="68,58 110,58 112,60 68,104" fill="#f4efe6" stroke="#f4efe6" stroke-width="4" stroke-linejoin="round"/>
-  </svg>
-  <h1><b>teko</b><span>labs</span></h1>
-  <p class="tagline">Play your way</p>
+  <header>
+    <svg class="mark" viewBox="0 0 120 120" role="img" aria-label="The Teko Labs mark">
+      <polygon points="60,8 94,42 26,42" fill="#f04a2a" stroke="#f04a2a" stroke-width="4" stroke-linejoin="round"/>
+      <polygon points="10,58 52,58 52,104 8,60" fill="#f4efe6" stroke="#f4efe6" stroke-width="4" stroke-linejoin="round"/>
+      <polygon points="68,58 110,58 112,60 68,104" fill="#f4efe6" stroke="#f4efe6" stroke-width="4" stroke-linejoin="round"/>
+    </svg>
+    <h1><b>teko</b><span>labs</span></h1>
+  </header>
 
-  <nav class="games" aria-label="Games">
-    <a class="game" href="/inky-quest/">
-      <img src="/inky-quest/icon.svg" alt="">
-      <span><strong>Inky Quest</strong><small>A bounce puzzle for phones. Steer Inky the octopus, match her colour to break the tiles, then take the pearls. Coming to Android first.</small></span>
+  <p class="lead">Teko Labs is a small independent studio making apps and games for phones. Each one does one thing well, has no adverts, and treats what you do in it as yours.</p>
+
+  <h2 id="products">What we make</h2>
+  <div class="products">
+    <a class="product" href="/inky-quest/" id="inky-quest">
+      <img src="/inky-quest/icon.svg" alt="Inky, a blue octopus">
+      <span>
+        <strong>Inky Quest <span class="tag">Game</span></strong>
+        <p>A bounce puzzle for phones. Inky the octopus bounces by herself; you steer her left and right, match her colour to break the tiles, then take the pearls. Forty-seven levels across seven zones, from a sunlit reef to the deep end. Coming to Android first, with iPhone to follow. Free, with no adverts and nothing to buy.</p>
+      </span>
     </a>
-  </nav>
+    <div class="product" id="juntocash">
+      <span class="tile" aria-hidden="true">J</span>
+      <span>
+        <strong>JuntoCash <span class="tag">In the making</span></strong>
+        <p>Budgeting and bill splitting in one app. Split a dinner with friends and your share counts in your own food budget, so your spending picture is whole for once. It works without an account, with everything kept on your phone; share a group by link when you want to. For Android and iPhone, with no bank linking and no adverts.</p>
+      </span>
+    </div>
+  </div>
+
+  <h2 id="about">About</h2>
+  <div class="about">
+    <p>Teko Labs is one studio behind both: the same care for small things, from the way an octopus bounces to the way a shared bill lands in a budget. Our apps keep what you do in them to themselves: no adverts, no selling or trading your data, and nothing sent anywhere that you cannot switch off.</p>
+    <p>Say hello, report a fault, or ask a question: <a href="mailto:hello@tekolabs.dev">hello@tekolabs.dev</a>.</p>
+  </div>
 </main>
 <footer>
-  <p>Teko Labs · <a href="mailto:tekolabs.dev@gmail.com">tekolabs.dev@gmail.com</a><br>© 2026 Teko Labs · <a href="/inky-quest/privacy.html">Inky Quest privacy policy</a></p>
+  <main style="padding-top:0;padding-bottom:0">
+    <p>© 2026 Teko Labs · <a href="/inky-quest/privacy.html">Inky Quest privacy policy</a> · <a href="https://github.com/teko-labs">GitHub</a></p>
+  </main>
 </footer>
 </body>
 </html>

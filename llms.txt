@@ -1,0 +1,17 @@
+# Teko Labs
+
+> Teko Labs is a small independent studio making apps and games for phones. Each one does one thing well, has no adverts, and treats what you do in it as yours. Contact: hello@tekolabs.dev. Site: https://tekolabs.dev/
+
+## Products
+
+- [Inky Quest](https://tekolabs.dev/inky-quest/): a bounce puzzle game for phones (Android first, in testing; iPhone to follow). Inky the octopus bounces by herself; the player steers her left and right, matches her colour to break the tiles, then takes the pearls. Forty-seven levels in seven zones. Free, no adverts, no accounts, nothing to buy. Store title: "Inky Quest: Bounce Puzzle". Android package: com.tekolabs.inkyquest.
+- JuntoCash: budgeting and bill splitting in one app, in development for Android and iPhone. Your share of a group expense counts in your own budget. Works without an account, with everything kept on the phone; groups can be shared by link. No bank linking, no adverts.
+
+## Policies
+
+- [Inky Quest privacy policy](https://tekolabs.dev/inky-quest/privacy.html): what the game keeps, what it sends and to whom, and how to switch it off.
+
+## Facts
+
+- Name: Teko Labs. Domain: tekolabs.dev. GitHub: https://github.com/teko-labs
+- The game's pages live under /inky-quest/. The studio's page is the root.
