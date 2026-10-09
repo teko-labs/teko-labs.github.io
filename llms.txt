@@ -1,6 +1,6 @@
 # Teko Labs
 
-> Teko Labs is an independent studio, run by one developer, making apps and games for Android and iPhone. The apps have no adverts and do not sell data. Contact: hello@tekolabs.dev. Site: https://tekolabs.dev/
+> Teko Labs is an independent software studio building apps and games for Android and iOS. It designs and builds its products in-house; its apps carry no advertising, share no data with brokers, and each has a clear privacy policy. Contact: hello@tekolabs.dev. Site: https://tekolabs.dev/
 
 ## Products
 
