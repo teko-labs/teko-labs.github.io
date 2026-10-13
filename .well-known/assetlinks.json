@@ -1,0 +1,13 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "dev.tekolabs.juntocash",
+      "sha256_cert_fingerprints": [
+        "2F:D0:32:51:C4:BA:E2:19:8F:8C:45:33:71:1D:13:AE:14:E0:AB:E9:04:17:51:75:0A:E0:31:F1:5B:C9:EA:98",
+        "B5:59:23:D5:94:C5:1D:28:E3:74:81:F6:FA:BE:2D:40:CF:74:22:DC:EF:A9:6E:42:81:FA:F9:04:CF:61:D7:11"
+      ]
+    }
+  }
+]
