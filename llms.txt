@@ -5,13 +5,16 @@
 ## Products
 
 - [Inky Quest](https://tekolabs.dev/inky-quest/): a bounce puzzle game for phones (Android first, in testing; iOS to follow). Inky the octopus bounces by herself; the player steers her left and right, matches her colour to break the tiles, then takes the pearls. Forty-seven levels in seven zones. Store title: "Inky Quest: Bounce Puzzle". Android package: com.tekolabs.inkyquest.
-- JuntoCash: budgeting and bill splitting in one app, in development for Android and iOS. Your share of a group expense counts in your own budget. Use it on your own, or share a group by link.
+- [JuntoCash](https://tekolabs.dev/juntocash/): budgeting and bill splitting in one app, in development for Android and iOS. Your share of a group expense counts in your own budget. Use it on your own, or share a group by link.
 
 ## Policies
 
 - [Inky Quest privacy policy](https://tekolabs.dev/inky-quest/privacy.html): what the game keeps, what it sends and to whom, and how to switch it off.
+- [JuntoCash privacy policy](https://tekolabs.dev/juntocash/privacy.html): what the app keeps on the phone, what an account keeps, what the servers can and cannot see, and how to delete it.
+- [JuntoCash terms of use](https://tekolabs.dev/juntocash/terms.html): the agreement between the user and Teko Labs for using the app.
+- [Deleting a JuntoCash account](https://tekolabs.dev/juntocash/delete-account.html): how to delete an account, in the app or by email, and what is deleted.
 
 ## Facts
 
 - Name: Teko Labs. Domain: tekolabs.dev. GitHub: https://github.com/teko-labs
-- The game's pages live under /inky-quest/. The studio's page is the root.
+- The game's pages live under /inky-quest/ and JuntoCash's under /juntocash/. The studio's page is the root.
